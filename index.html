@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment-07</title>
+</head>
+<body>
+    <div><h1>Calculator</h1></div>
+    <div class="main">
+        <div>
+            <input id="result" type="text" style="width: 392px;height: 30px;border: black;">
+        </div>
+        <div>
+            <button class="num" onclick="getData('7')">7</button>
+            <button class="num" onclick="getData('8')">8</button>
+            <button class="num" onclick="getData('9')">9</button>
+            <button class="divide" onclick="getData('/')">/</button>
+        </div>
+        <div>
+            <button class="num" onclick="getData('4')">4</button>
+            <button class="num" onclick="getData('5')">5</button>
+            <button class="num" onclick="getData('6')">6</button>
+            <button class="mul" onclick="getData('*')">x</button>
+        </div>
+        <div>
+            <button class="num"onclick="getData('1')">1</button>
+            <button class="num"onclick="getData('2')">2</button>
+            <button class="num"onclick="getData('3')">3</button>
+            <button class="sub"onclick="getData('-')">-</button>
+        </div>
+        <div>
+            <button class="clear" onclick="clearResult()">C</button>
+            <button class="num" onclick="getData('0')">0</button>
+            <button class="num" onclick="getData('.')">.</button>
+            <button class="add" onclick="getData('+')">+</button>
+        </div>
+        <div>
+            <button class="equal" onclick="getResult()">=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
